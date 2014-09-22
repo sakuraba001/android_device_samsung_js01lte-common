@@ -31,7 +31,7 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 TARGET_KERNEL_CONFIG := msm8974_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_js01lte_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_js01lte_dcm_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/js01lte
 
 # Audio

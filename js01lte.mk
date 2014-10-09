@@ -22,9 +22,6 @@ $(call inherit-product-if-exists, vendor/samsung/js01lte-common/js01lte-common-v
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-## overlays for dcm
-DEVICE_PACKAGE_OVERLAYS += device/samsung/js01lte-common/overlay-dcm
-
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 

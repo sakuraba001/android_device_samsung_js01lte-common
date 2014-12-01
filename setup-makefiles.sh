@@ -233,7 +233,6 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-
 ifneq (\$(filter js01lte,\$(TARGET_DEVICE)),)
 
 include \$(CLEAR_VARS)

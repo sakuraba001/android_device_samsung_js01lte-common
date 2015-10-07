@@ -71,6 +71,7 @@ TARGET_POWERHAL_VARIANT := qcom
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(LOCAL_PATH)/power/power_ext.c
 
 # Recovery
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/js01lte-common/recovery/recovery_keys.c
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_HAS_NO_SELECT_BUTTON := true

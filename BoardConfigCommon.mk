@@ -93,6 +93,9 @@ BOARD_SEPOLICY_DIRS += device/samsung/js01lte-common/sepolicy
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
 
+# Sensors
+TARGET_NO_SENSOR_PERMISSION_CHECK := true
+
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_WLAN_DEVICE := bcmdhd
